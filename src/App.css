@@ -51,13 +51,33 @@ a {
   padding: 10px 18px;
 }
 
+button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  padding: 10px 18px;
+}
+
 .h-buttons .green-btn {
   background: #8BAC3E;
   border-radius: 100px;
   color: aliceblue;
 }
 
-.hot  {
+.green-btn {
+  background: #8BAC3E;
+  border-radius: 100px;
+  color: aliceblue;
+}
+
+.gray-btn {
+  background: #f2f2f2;
+  border-radius: 100px;
+  color: #000;
+  font-weight: 600;
+}
+
+.hot {
   position: absolute;
   width: 35px;
   height: 18px;
@@ -69,6 +89,13 @@ a {
   background: #E7462D;
 }
 
+.hot{
+  position: absolute;
+  margin-left: 710px;
+  transform: translate(-50%, -50%);
+
+}
+
 .hot span {
   display: flex;
   justify-content: space-between;
@@ -78,9 +105,7 @@ a {
   left: -100px;
   gap: 0px;
   opacity: 0px;
-}
 
-span {
   font-family: Open Sans;
   font-size: 8px;
   font-weight: 700;
@@ -92,4 +117,52 @@ span {
   color: #FFFFFF;
 }
 
+
+
 /*  header end */
+
+/* hero css  */
+/* hero-css */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text {
+  /* border: 1px solid red; */
+  width: 482px;
+  padding-top: 86px;
+
+  h1 {
+    color: #8BAC3E;
+    font-size: 64px;
+    margin-bottom: 32px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 32px;
+  }
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.hero-img {
+  margin-right: 30px;
+  padding-top: 34px;
+}
+
+.hero-img .img-wrapper {
+  width: 457px;
+  height: 457px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+/* hero-css end */
+/* hero css end */
