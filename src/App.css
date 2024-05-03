@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid red;
+}
+
+/*  header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h-nav {
+  display: flex;
+  gap: 32px;
+}
+
+.h-nav a {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #757575;
+
+}
+
+.h-buttons {
+  display: flex;
+  gap: 24px;
+}
+
+.h-buttons button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  padding: 10px 18px;
+}
+
+.h-buttons .green-btn {
+  background: #8BAC3E;
+  border-radius: 100px;
+  color: aliceblue;
+}
+
+.hot  {
+  position: absolute;
+  width: 35px;
+  height: 18px;
+  top: 5px;
+  left: 705px;
+  gap: 0px;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 0px;
+  background: #E7462D;
+}
+
+.hot span {
+  display: flex;
+  justify-content: space-between;
+  width: 18px;
+  height: 14px;
+  top: 30px;
+  left: -100px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+span {
+  font-family: Open Sans;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 7px;
+  padding: 2px;
+  color: #FFFFFF;
+}
+
+/*  header end */
